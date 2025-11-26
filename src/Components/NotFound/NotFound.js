@@ -6,7 +6,7 @@ import { Nav } from 'react-bootstrap';
 const NotFound = () => {
     return (
         <div>
-            <div><img className='notPageImg' src={notPageImg} alt="" /></div>
+            <div className='notFound'><h3>404 Not Found</h3></div>
             <div className="homeButton">
                 <Nav.Link href="/home">Go To Home</Nav.Link>
             </div>

@@ -1,6 +1,9 @@
-.notPageImg{
+.notFound{
     align-items: center;
-    padding-left: 10px;
+    color: red;
+    padding-left: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .homeButton{
         align-items: center;
