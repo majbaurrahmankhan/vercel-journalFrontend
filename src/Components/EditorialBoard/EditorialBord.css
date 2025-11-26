@@ -1,0 +1,22 @@
+.info{
+    margin-top: 20px;
+}
+
+.list-of-editorial-bord{
+    margin: 100PX;
+     word-wrap: normal;
+    /* overflow-wrap: break-word; */
+    /* overflow-wrap: break-word; */
+  /* hyphens: manual; */
+    text-align: left;
+}
+.associate-Editors{
+    color: rgb(92, 114, 134);
+    
+
+}
+.Editorial-Board-Members{
+color: rgb(92, 114, 134);
+    text-decoration: none;
+    text-align: left;
+}

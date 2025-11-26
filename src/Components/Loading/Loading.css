@@ -1,0 +1,17 @@
+.loading
+{
+    background-color: #fff;  
+    align-items: center;
+    
+}
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+  
+
+  }
+  

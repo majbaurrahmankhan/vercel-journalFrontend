@@ -1,0 +1,37 @@
+
+.genarelInfo{
+    text-wrap: wrap;
+   /* text-wrap: stable; */
+}
+
+.info{
+    background-color: rgb(8, 8, 70);
+    /* display: flex; */
+    /* width: 880px; */
+    padding: 10px;
+    margin: 10px;
+    background-color: #2b7a78;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.home-info{
+    padding-top: 50px;
+    align-items: center;
+}
+.genarelInfo h6{
+    text-align: center;
+}
+.genarelInfo h4{
+    padding-top: 30px;
+    text-align: center;
+}
+.genarelInfo p{
+   /* text-indent: 110px; */
+   letter-spacing: 1px;
+}
+
+.demoJournal{
+    list-style-type:circle;
+}

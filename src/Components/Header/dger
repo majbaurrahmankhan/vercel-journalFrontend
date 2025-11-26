@@ -1,0 +1,114 @@
+<header class="cu-header">
+  <div class="logo">
+    <img src="/images/cu-logo.png" alt="University Logo">
+  </div>
+
+  <div class="title">
+    <h1>University of Chittagong</h1>
+    <h2>চট্টগ্রাম বিশ্ববিদ্যালয়</h2>
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+<a target='blank' href='https://cu.ac.bd/'>
+                
+
+                
+                          <img height={100} className='logo' src={logo}></img>
+
+                          <h5>University of Chittagong</h5>  
+
+                            <h6>চট্টগ্রাম বিশ্ববিদ্যালয়</h6>
+                           
+                          </a>
+
+
+
+
+
+
+
+
+
+
+
+                          @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #b5886c; /* হালকা বাদামী */
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* CU Header Flex */
+.cu-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Logo */
+.cu-header .logo img {
+  width: 80px;
+  height: auto;
+}
+
+/* Title */
+.cu-header .title h1 {
+  color: #0000ee; /* নীল */
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.cu-header .title h2 {
+  color: #8b0000; /* লাল-বাদামী */
+  font-size: 12px;
+  margin: 0;
+  font-family: 'SolaimanLipi', 'Noto Serif Bengali', serif;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Sign Out Button */
+.navbar-nav .btn-link {
+  color: #fff;
+}
+
+.navbar-nav .btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cu-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cu-header .logo {
+    margin-bottom: 4 px;
+  }
+}

@@ -1,0 +1,26 @@
+.carousel-item{
+    height: 25rem;
+    background-color: #000;
+}
+.carousel-item img{
+    opacity: 0.6;
+}
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+  .carousel-item{
+    padding-top: 30px;
+    height:12rem;
+    background-color: #000;
+}
+}
+
+
+
